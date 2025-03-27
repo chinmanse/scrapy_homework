@@ -1,0 +1,112 @@
+2025-03-23 18:58:26 [scrapy.utils.log] INFO: Scrapy 2.12.0 started (bot: tarea_1)
+2025-03-23 18:58:26 [scrapy.utils.log] INFO: Versions: lxml 5.3.1.0, libxml2 2.11.7, cssselect 1.3.0, parsel 1.10.0, w3lib 2.3.1, Twisted 24.11.0, Python 3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 64 bit (AMD64)], pyOpenSSL 25.0.0 (OpenSSL 3.4.1 11 Feb 2025), cryptography 44.0.2, Platform Windows-10-10.0.19045-SP0
+2025-03-23 18:58:26 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-03-23 18:58:26 [asyncio] DEBUG: Using selector: SelectSelector
+2025-03-23 18:58:26 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-03-23 18:58:26 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-03-23 18:58:26 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-03-23 18:58:26 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-03-23 18:58:26 [scrapy.extensions.telnet] INFO: Telnet Password: cc9f39c99dfc161e
+2025-03-23 18:58:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-03-23 18:58:26 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'tarea_1',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'tarea_1.spiders',
+ 'SPIDER_MODULES': ['tarea_1.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2025-03-23 18:58:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-03-23 18:58:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-03-23 18:58:27 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-03-23 18:58:27 [scrapy.core.engine] INFO: Spider opened
+2025-03-23 18:58:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-03-23 18:58:27 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2025-03-23 18:58:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://thenextweb.com> (referer: None)
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'After Northvolt, Europe&#8217;s battery path leads to China — or new tech frontiers', 'link': 'https://thenextweb.com/news/after-northvolt-europe-eyes-new-battery-frontiers-beyond-china', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F03%2FUntitled-design-44.jpg&signature=416e54e7ca8dcb047718cbc08334e2e5'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'Opinion: To close Europe&#8217;s defence tech gap, governments must support startups', 'link': 'https://thenextweb.com/news/european-governments-must-support-startups-close-defence-tech-gap', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F03%2FUntitled-design-43.jpg&signature=5f9934c818de44463b4e659f785af3f9'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'Military vehicles to get mixed reality windshields controlled by human eyes', 'link': 'https://thenextweb.com/news/military-vehicles-add-distance-mixed-reality-windshields', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F03%2FUntitled-design-42.jpg&signature=0ce79f78bd144a281e3018353d024c26'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'The European Accessibility Act risks becoming just a box-ticking exercise', 'link': 'https://thenextweb.com/news/european-accessibility-act-becoming-box-ticking-exercise', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F02%2FUntitled-design-9-1.jpg&signature=9a60906c448a6f5ca7f463c121375831'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'Euclid space telescope captures multiple &#8216;extremely rare&#8217; double gravitational lenses', 'link': 'https://thenextweb.com/news/esa-euclid-double-gravitational-lens-dark-matter-universe', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F03%2FUntitled-design-41.jpg&signature=cd74548463177edbbf89e5dcfdd1891d'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'Ex-ArianeGroup CEO backs Pangea to build 3D-printed aerospike rocket engines', 'link': 'https://thenextweb.com/news/arianegroup-ceo-backs-pangea-3d-printed-aerospike-rocket-engines', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F03%2FUntitled-design-40.jpg&signature=666c5eb8bd65c7410870f4918d52d799'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'Exclusive: Visoid bags fresh funds for AI that accelerates 3D rendering for architects', 'link': 'https://thenextweb.com/news/visoid-ai-accelerates-architectural-3d-renders', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F03%2FUntitled-design-39.jpg&signature=103605e0202a7608834e2ded4741a955'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'Dalot joins Ronaldo in backing personalised nutrition pioneer Bioniq', 'link': 'https://thenextweb.com/news/dalot-joins-ronaldo-funding-personalised-nutrition-startup-bioniq', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F03%2FUntitled-design-37.jpg&signature=28f4d0c5a0b771fd474a0005891def38'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'Dutch unicorn Mews mulls IPO in US amid concerns over support for startups', 'link': 'https://thenextweb.com/news/dutch-unicorn-mews-may-ipo-in-us', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2024%2F09%2Fmews-founders.jpg&signature=9fbb0b53ec24f78caf144b26f34fd3d2'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'Irish startup Equal1 unveils world’s first silicon-based quantum computer', 'link': 'https://thenextweb.com/news/irish-startup-equal1-unveils-worlds-first-silicon-based-quantum-computer', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F03%2FUntitled-design-38.jpg&signature=2c50cf0567c500ace16c92babe9ecb95'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'Tired of AI slop on Instagram? These alternative apps are for human artists only', 'link': 'https://thenextweb.com/news/alternative-apps-to-instagram-ai-slop-for-artists', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F03%2FAI-slop-instagram-alternatives-pixelfed-cara-meta.jpg&signature=cbce71f98511f231cbee9812c0f7dbc8'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': 'Dutch startup Skylark takes off to give non-technical founders wings', 'link': 'https://thenextweb.com/news/dutch-startup-skylark-launches-non-technical-founders', 'image': 'https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F03%2FUntitled-design-36.jpg&signature=959d2453771952e0b3b01ff775bb5dad'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': None, 'link': 'https://www.google.com/', 'image': '//next.tnwcdn.com/assets/next/img/partners/google.svg'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': None, 'link': 'https://www.etoro.com/', 'image': '//next.tnwcdn.com/assets/next/img/partners/etoro.svg'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': None, 'link': 'https://www.ibm.com/', 'image': '//next.tnwcdn.com/assets/next/img/partners/ibm.svg'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': None, 'link': 'https://www.microsoft.com/', 'image': '//next.tnwcdn.com/assets/next/img/partners/microsoft.svg'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': None, 'link': 'https://www.paypal.com/', 'image': '//next.tnwcdn.com/assets/next/img/partners/paypal.svg'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': None, 'link': 'https://www.vodafone.com/', 'image': '//next.tnwcdn.com/assets/next/img/partners/vodafone.svg'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': None, 'link': 'https://www.accenture.com/', 'image': '//next.tnwcdn.com/assets/next/img/partners/accenture.svg'}
+2025-03-23 18:58:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://thenextweb.com>
+{'title': None, 'link': 'https://www.mckinsey.com/', 'image': '//next.tnwcdn.com/assets/next/img/partners/mckinsey-company.svg'}
+2025-03-23 18:58:27 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-03-23 18:58:27 [scrapy.extensions.feedexport] INFO: Stored json feed (20 items) in: resultados.json
+2025-03-23 18:58:27 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 215,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 52789,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.295868,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 3, 23, 22, 58, 27, 904314, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 450584,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 20,
+ 'items_per_minute': None,
+ 'log_count/DEBUG': 26,
+ 'log_count/INFO': 11,
+ 'response_received_count': 1,
+ 'responses_per_minute': None,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2025, 3, 23, 22, 58, 27, 608446, tzinfo=datetime.timezone.utc)}
+2025-03-23 18:58:27 [scrapy.core.engine] INFO: Spider closed (finished)
